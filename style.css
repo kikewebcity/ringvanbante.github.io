@@ -94,9 +94,6 @@ color: aliceblue;
 
 /*navbar*/
 
-
-
-
 .hero, .hero2, .hero3 .hero4 {
 height: 100vh;
 position: relative;
@@ -136,12 +133,13 @@ transition: 0.3s ease;
    display: flex;
    margin-right: 40px;
    list-style: none; 
+   align-items: center;
 }
 
 
 .nav-menu-item {
-font-size: 20px;
-margin: 0 10px;
+font-size: 25px;
+margin: 20px 10px;
 line-height: 80px;
 text-transform: uppercase;
 width: max-content;
