@@ -167,11 +167,6 @@ bottom: -10px;
   }
   
 
-
-
-
-
-
 #canvas1 {
     position: absolute;
     top:0; left: 0;
@@ -186,7 +181,6 @@ bottom: -10px;
     height: 40vh;
     text-align: center; 
   justify-items: center;
-    
     }
 
 .titulo2 p {
@@ -197,8 +191,6 @@ bottom: -10px;
     -webkit-text-fill-color: transparent;
 font-weight: 400;
 }
-
-
 
 .titulo-silla {
   position: relative;
@@ -306,11 +298,6 @@ left: 0;
     z-index: -1;
 }
 
-.contenedor-portada h1:hover {
-   -webkit-text-stroke: 2px #fff ;
-   color: transparent;    
-}
-
 
 .contenedor-portada {
 text-align: center;
@@ -337,6 +324,11 @@ background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cf
     color: #fff;
 font-weight: 600;
 transition: 0.5s ease-in-out;
+}
+
+.contenedor-portada h1:hover {
+  -webkit-text-stroke: 2px #fff ;
+  color: transparent;    
 }
 
 
@@ -1469,8 +1461,7 @@ transition: all 500ms ease;
 } 
 
 .social-icon i {
-   font-size: 30px;
-  
+   font-size: 30px;  
    margin: 8px 8px;
    transition: all 500ms ease;
     } 
@@ -1569,7 +1560,7 @@ transition: all 500ms ease;
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: #f00;
+    background: #f0F1F8;
     cursor: pointer;
 }
 
@@ -2184,18 +2175,17 @@ transition: all 500ms ease;
 }
 
 
-
-
-
-
-
     @media (max-width: 768px) {
       
     
         .hero {
-          height: 52vh;
-         
-        }
+            height: 50vh;
+            width: 50%;
+            align-items: center;
+            justify-items: center;
+            background-size: 50% ;
+          }
+          
         .hero2 {
             height: 62vh;
           }
@@ -2211,8 +2201,13 @@ height: 40vh;
 
         }
 
-
-      
+  .contenedor-portada h1 {
+  margin-left: 95% ;
+  font-size: 4rem;
+ 
+  }
+  
+  
         .nav-menu {
           flex-direction: column;
           align-items: center;
@@ -2278,14 +2273,6 @@ height: 40vh;
       width: 100%; 
       }
 
-
-
-.contenedor-portada h1 {
-margin-top: -2px;
-font-size: 2.3rem;
-
-}
-
 .derecha {
     height: 10px;
     width: 60%;
@@ -2302,10 +2289,18 @@ font-size: 2.3rem;
 
 
 .titulo2 {
- 
-  font-size: 1.3rem; 
-    
+  
+  width: auto;
+  height: 50vh;
+  text-align: center; 
+justify-items: center;
+  }
+
+.titulo2 p {
+font-size: 3.8rem; 
+margin: 100px auto ;
 }
+
 
 .contenedor-portada a {
     font-size: 15px;
@@ -2391,9 +2386,14 @@ font-size: 2.3rem;
       
     
         .hero {
-            height: 23vh;
-           
-          }
+          height: 35vh;
+          width: 50%;
+          align-items: center;
+          justify-items: center;
+          background-size: 50% ;
+         
+        }
+
           .hero2 {
               height: 23vh;
             }
@@ -2403,6 +2403,13 @@ font-size: 2.3rem;
               height: 23vh;
             }
   
+            .contenedor-portada h1 {
+              margin-left: 95% ;
+              font-size: 3rem;
+             
+              }
+              
+
         
           .hero4 {
   height: 20vh;
@@ -2488,13 +2495,6 @@ font-size: 2.3rem;
         width: 100%; 
         }
   
-  
-  
-  .contenedor-portada h1 {
-  margin-top: -2px;
-  font-size: 2rem;
-  
-  }
   
   .derecha {
       height: auto;
