@@ -3049,6 +3049,250 @@ font-size: 3rem;
 }
 
 
+@media (max-width: 412px) {
+      
+    
+  .hero {
+    height: 45vh;
+    width: 100%;
+    background-position:50% 95% ;
+    
+    }
+            .hero2 {
+                height: 23vh;
+              }
+      
+      
+              .hero3 {
+                height: 23vh;
+              }
+  
+          
+              .contenedor-portada h1 {
+                top: -70px;
+                right: 45%;
+                font-size: 2.5rem;
+                }
+      
+                .titulo2 {      
+  width: auto;
+  height: 30vh;
+  text-align: center; 
+  justify-items: center;
+  
+  }
+  
+  .titulo2 p {
+    margin: 0 50px 0 50px ;
+  font-size: 2.3rem; 
+  }
+  .titulo-silla  {
+    width:auto ;
+    height: 7vh;
+  
+  }
+  
+  .titulo-silla h3 {
+  
+    font-size: 2em;
+  }
+  
+  
+  .titulo-silla2  {
+    width:auto ;
+    height: 20vh;
+  
+  }
+  
+  .titulo-silla2 h3 {
+    margin: 10px auto;
+    line-height: 60px;
+    font-size: 2em;
+  }
+  
+  .titulo3 {
+    display: none;
+  }
+  
+  
+          
+            .hero4 {
+    height: 20vh;
+    
+            }
+    
+            .logo img  {
+       height: 10vh;
+              margin-left: 150%;     
+            }
+  
+  
+          
+    
+            .nav-menu {
+              flex-direction: column;
+              align-items: center;
+              margin: 0;
+              background-color: #fff;
+              position: fixed;
+              top: 55px;
+              width: 100%;
+              padding: 20px 0;
+              height: calc(30% - 10px);
+              overflow-y: auto;
+          
+              left: 100%;
+              transition: left 0.3s;
+            }
+          
+            .nav-menu-item {
+              font-size: 10px;
+              line-height: 1px;
+            }
+    
+            .nav-menu-link {
+    
+              color: black;  
+            }  
+          
+            .nav-menu-link:hover,
+            .nav-menu-link_active {
+              background: none;
+              color: rgb(212, 175, 55);
+            }
+          
+            .nav-toggle {
+              display: block;
+            }
+          
+            .nav-menu_visible {
+              left: 0;
+            }
+          
+            .nav-toggle:focus:not(:focus-visible) {
+              outline: none;
+            }
+    .black-video {
+        height: 100%;
+        width: 100%;
+    }
+    
+    
+      .main {
+     width: 100%;
+     padding: 0; 
+  } 
+  
+    
+    .main3 {
+       height: auto;
+        width: 120%;    
+      }
+      
+      .main3 .gallery3 {
+        margin-left: 100px;
+        width: 100%;
+    
+      }
+      
+      .main3 .gallery3 .img {
+          height: 100%;
+          width: 100%; 
+          }
+    
+    
+    .derecha {
+        height: auto;
+    }
+    
+    
+    .contenedor-portada a {
+  
+        font-size: 10px;
+        border: 2px solid #fff;
+        padding: 5px 30px;
+        border-radius: 50px;
+        } 
+    
+        .contenedor  {
+            padding: 30px;
+         }
+         .lines {
+             width: 100%;
+             height: 25px;
+             
+         }
+         
+         
+         .circle {
+         height: 30px;
+         width: 30px;
+         margin: auto;
+        
+         
+         }
+     
+         .img .capa {
+            width: 100%;
+            height: 14vh;
+                 
+        }
+           
+              .img   .capa h3  {
+                  margin-top: 10px;
+                font-size: 1em;
+                   
+                       }
+           
+                      .img  .capa p  {
+                          
+                           font-size: 10px;
+                            margin-top: -30px;
+                           line-height: 1.5;
+                           width: 100%;
+                           max-width: 100px;
+                           transition:all 500ms ease-in-out;    
+                                  } 
+           
+         
+    .cuadro2 {
+        width: 100%;
+        height: 30%;
+        align-items: center;
+        text-align: center;
+        }
+        .cuadro2 p {
+            margin-top: -10px ;
+            font-size: 1.7rem;
+        }         
+               
+    
+        .main5 {
+            height: auto;
+            width: 100%;
+            
+          }
+          
+          .main5 .gallery5 {
+          position: relative;
+          height: auto;
+          width:90% ;
+          }
+          
+          .main5 .gallery5 .img {
+              
+              height: 100%;
+              width: 100%;
+             
+              }  
+  
+  }
+  
+  
+  
+  
+  
+  
 
 
 
