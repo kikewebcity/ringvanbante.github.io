@@ -53,13 +53,14 @@ background-position:50% 95% ;
 
 }
 
+
 .titulo-galeria {
   align-items: ce;
  color: #f0F1F8; 
 }
 
 
- .hero2, .hero3 .hero4 {
+ .hero2, .hero3 , .hero4 {
   height: 100vh;
   position: relative;
   background-image: linear-gradient(rgba(12,3,51,0.3), rgba(12,3,51,0.3) ) ;
@@ -67,7 +68,7 @@ background-position:50% 95% ;
   top:0;
   left: 0;
 
-  
+
   }
   
   .nav {
@@ -325,17 +326,9 @@ transition: 0.5s ease-in-out;
   color: transparent;    
 }
 
-.contenedor-portada   h1:after {
-  background: none;
-  content: attr(data-heading);
-  left: 0;
-top: 0;
-text-shadow: 
-  -1px 0 1px #c6bb9f, 
-  0 1px 1px #c6bb9f, 
-  5px 5px 10px rgba(0, 0, 0, 0.4),
-  -5px -5px 10px rgba(0, 0, 0, 0.4);
-}
+
+
+
 
 .img .capa2 {
   position:absolute;
@@ -2442,26 +2435,21 @@ font-size: 2.5em;
     height: 20vh;
   
   }
-  
   .titulo-silla2 h3 {
     margin: 10px auto;
     line-height: 60px;
     font-size: 2em;
   }
-  
   .titulo3 {
     display: none;
   }
-  
             .hero4 {
     height: 20vh;
             }    
             .logo img  {
        height: 10vh;
-              margin-left: 150%;     
-              background: red;
+              margin-left: 150%;               
             }
-
             .nav-menu {
               flex-direction: column;
               align-items: center;
@@ -2476,17 +2464,13 @@ font-size: 2.5em;
               left: 100%;
               transition: left 0.3s;
             }
-          
             .nav-menu-item {
               font-size: 10px;
               line-height: 1px;
             }
-    
             .nav-menu-link {
-    
               color: black;  
             }  
-          
             .nav-menu-link:hover,
             .nav-menu-link_active {
               background: none;
@@ -2508,15 +2492,12 @@ font-size: 2.5em;
         height: 100%;
         width: 100%;
     }
-    
-    
       .main {
       right: 12%;  
      width: 130%;
      padding: 0; 
   } 
   
-    
     .main3 {
        height: auto;
         width: 120%;    
@@ -2533,14 +2514,11 @@ font-size: 2.5em;
           width: 100%; 
           }
     
-    
     .derecha {
         height: auto;
     }
-    
-    
+      
     .contenedor-portada a {
-  
         font-size: 10px;
         border: 2px solid #fff;
         padding: 5px 30px;

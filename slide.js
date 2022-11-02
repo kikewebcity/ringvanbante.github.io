@@ -19,8 +19,10 @@ images.forEach((item, i) => {
     })
 })
 
+
+
 const updateImage = (i) => {
-    let path = `recursos/img${i+1}.jpg`;
+    let path = `./img/recursos/img${i+1}.jpg`;
     largeImage.src = path;
     imageName.innerHTML = path;
     imageIndex.innerHTML = `0${i+1}`;
