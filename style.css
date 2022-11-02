@@ -9,7 +9,7 @@
 
 }
 body {
-background: #000;    
+ background: #000;
 }
 
 a {
@@ -23,7 +23,6 @@ section::before {
   left: 0;
   width: 100%;
   height: 150px;
-  background: linear-gradient(to top,#000000, transparent);
   z-index: 10;
 }
 
@@ -42,16 +41,9 @@ z-index: 10;
 
 /*navbar*/
 
-.banner {
-
-width: 100%;
-align-items: center;
-justify-items: center;
-}
-
 
 .hero {
-height: 80vh;
+height: 95vh;
 position: relative;
 background-image: url("./img/videos/corazon-gif.gif");
 background-repeat: no-repeat;
@@ -60,9 +52,6 @@ width: 100%;
 background-position:50% 95% ;
 
 }
-
-
-
 
 .titulo-galeria {
   align-items: ce;
@@ -77,31 +66,26 @@ background-position:50% 95% ;
   width: 100%;
   top:0;
   left: 0;
+
   
   }
   
   .nav {
       display: flex;
       justify-content: space-between;
-      max-width: 992px;
+      max-width: 890px;
       margin:0 auto ;
   }
   
 .nav-menu-item::after {
 content: '';
 position:absolute;
-height: 3px;
+height: 4px;
 width: 100%;
 left:0;
 bottom: -10px;
 
 }
-
-
-.nav-menu-item {
-  
-}
-
 
 
   .nav-link {
@@ -116,8 +100,6 @@ bottom: -10px;
    
     }
     
-
-  
    .logo img { 
   height: 100%;
   width: auto;
@@ -125,8 +107,6 @@ bottom: -10px;
   
   }
  
-  
-  
   .nav-menu {
      display: flex;
      margin-right: 40px;
@@ -137,7 +117,7 @@ bottom: -10px;
   
   .nav-menu-item {
   font-size: 25px;
-  margin: 20px 10px;
+  margin: 20px auto;
   line-height: 80px;
   text-transform: uppercase;
   width: max-content;
@@ -178,15 +158,16 @@ bottom: -10px;
    
    .titulo2 {
     position: relative;
-    width: auto;
+    width: 100%;
     height: 40vh;
     text-align: center; 
   justify-items: center;
+  
     }
 
 .titulo2 p {
   font-size: 4rem; 
-  margin: 50px auto ;
+  margin: 15px 50px 0 50px ;
   background: linear-gradient(to bottom, #e4c88c 22%,#866835 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -210,7 +191,6 @@ background: linear-gradient(to bottom, #e4c88c 22%,#866835 24%, #cfc09f 26%, #cf
 font-weight: 400;
 }
 
-
 .titulo-silla2 {
   position: relative;
   width: 100%;
@@ -228,27 +208,22 @@ background: linear-gradient(to bottom, #e4c88c 22%,#866835 24%, #cfc09f 26%, #cf
 font-weight: 400;
 }
 
-
-
     .titulo2 h3:hover {
         -webkit-text-stroke: 2px rgba(212,175,55,0.6) ;
         color: transparent; 
         transition: all 0.5s ease-in;
      }
-     
-
-
-
-
-
-    
-    
+      
     .contenedor  {
+      position: relative;
+      height: 10vh;
+      align-items: center;
+      width: 100%;
        padding: 100px; 
+      
     }
     .lines {
-        width: 100%;
-        height: 45px;
+        width: 50%;
         position: relative;
     }
     
@@ -271,7 +246,7 @@ font-weight: 400;
     }
     
     .circle {
-    height: 40px;
+    height: 6vh;
     width: 40px;
     border: 2px solid rgb(212, 175, 55);
     left: 0;
@@ -284,15 +259,11 @@ font-weight: 400;
     }
 
 .portada-texto {
-    
     padding: 0 30px;
     margin-top: 150px;
     text-align: center;
-    
-     
 }
 .portada-texto h2  {
-    
     font-size: 80px;
     margin-bottom: 30px; 
     line-height: 100px;
@@ -312,7 +283,6 @@ left: 0;
 
 }
 
-
 /*video- portada*/
 .back-video {
     width: 100%;
@@ -324,13 +294,14 @@ left: 0;
 
 
 .contenedor-portada {
+  position: relative;
+  margin: 3px auto;
 text-align: center;
 display: flex;
-text-align: center;
-	align-items: center;
-	justify-content: center;
-  text-decoration: none;
-  border: none;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+border: none;
 }
 
 .contenedor-portada a {
@@ -339,13 +310,12 @@ text-align: center;
   }
 
 .contenedor-portada h1 {
-  margin:100px 0 0  0;
-position: relative;
+
 font-size: 5rem;
 background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: #fff;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+color: #fff;
 font-weight: 600;
 transition: 0.5s ease-in-out;
 }
@@ -355,22 +325,17 @@ transition: 0.5s ease-in-out;
   color: transparent;    
 }
 
-
-
 .contenedor-portada   h1:after {
   background: none;
   content: attr(data-heading);
   left: 0;
 top: 0;
-  z-index: -1;
-  position: absolute;
-  text-shadow: 
+text-shadow: 
   -1px 0 1px #c6bb9f, 
   0 1px 1px #c6bb9f, 
   5px 5px 10px rgba(0, 0, 0, 0.4),
   -5px -5px 10px rgba(0, 0, 0, 0.4);
 }
-
 
 .img .capa2 {
   position:absolute;
@@ -399,8 +364,6 @@ top: 0;
                                 }
 
 
-
-
 .contenedor-portada a {
     
     text-decoration: none;
@@ -425,7 +388,7 @@ top: 0;
 .main {
   position:relative; 
   height: auto; 
-   
+
 }
 
  .gallery {
@@ -440,7 +403,6 @@ grid-gap: 1vmin;
 grid-auto-flow: dense;
   
 }
-
 
  .gallery .img {
     position: relative;
@@ -475,7 +437,6 @@ opacity: 0.6;
 border: 5px solid transparent;
     }
   
-
     .gallery .img:hover img {
         transform: scale(0.9);
         opacity: 1;
@@ -538,9 +499,7 @@ border: 5px solid transparent;
            grid-column-start: span 1 ;
                    grid-row-start: span 1 ;
           }
-                            
-          
-                            
+                                                  
           .gallery .img2 img {
             height: 100%;
              width: 100%;
@@ -550,8 +509,7 @@ border: 5px solid transparent;
                               
                         
          .gallery .img2:hover img {
-         transform: scale(1.1);
-                                  
+         transform: scale(1.1);                                  
                                     }
 
 .reveal {
@@ -612,19 +570,16 @@ border: 5px solid transparent;
               width: 100%;
               object-fit: cover;
               transition: all 1.2s ease-in-out;
-opacity: 0.3;       
-
+  opacity: 0.3;       
               }
         
-
               .gallery2 .img2 {
                 position: relative;
                 height: 100%;
                 width: 100%;
                 overflow: hidden;
                 }
-            
-                
+                  
             .gallery2 .img2:first-child {
             grid-column-start: span 1;
             grid-row-start: span 1 ;
@@ -681,15 +636,11 @@ opacity: 0.3;
 width: 40%;
 justify-items: center;
 align-items: center;
-
-
 }
 
 #dividida{
 display: flex;
 }
-
-
 
         .main3 {
             position:relative; 
@@ -2200,614 +2151,6 @@ transition: all 500ms ease;
 
 
 
-@media (max-width: 1200px) {
-      
-    
-  .hero {    
-      height: 60vh;
-      width: 50%;
-      align-items: center;
-      justify-items: center;
-      background-size: 40% ;
-    }
-  .hero2 {
-      height: 62vh;
-    }
-    .hero3 {
-      height: 63vh;
-    }
-  .hero4 {
-height: 40vh;
-  }
-.contenedor-portada h1 {
-margin-left: 95% ;
-font-size: 5rem;
-}
-
- 
-.titulo-silla {
-    
-  width: 100%;
-  height: 25vh;
- 
-  }
-
-.titulo-silla h3 {
-font-size: 5rem; 
-margin: 50px auto ;
-}
-
-  .nav-menu {
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-    background-color: #fff;
-    position: fixed;
-    top: 150px;
-    width: 100%;
-    padding: 20px 0;
-    height: calc(100% - 60px);
-    overflow-y: auto;
-
-    left: 100%;
-    transition: left 0.3s;
-  }
-
-  .nav-menu-item {
-    line-height: 80px;
-  }
-
-  .nav-menu-link {
-
-    color: black;  
-  }  
-
-  .nav-menu-link:hover,
-  .nav-menu-link_active {
-    background: none;
-    color: rgb(212, 175, 55);
-  }
-
-  .nav-toggle {
-    display: block;
-  }
-
-  .nav-menu_visible {
-    left: 0;
-  }
-
-  .nav-toggle:focus:not(:focus-visible) {
-    outline: none;
-  }
-.black-video {
-height: 100%;
-width: 100%;
-}
-
-
-
-.main3 {
-height: fit-content;
-width: 100%;    
-}
-
-.main3 .gallery3 {
-
-width: 100%;
-
-}
-
-.main3 .gallery3 .img {
-height: 100%;
-width: 100%; 
-}
-
-.derecha {
-height: 10px;
-width: 60%;
-align-items: center;
-text-align: center;
-}
-
-
-.titulo3 p {
-margin-top: 120px ;
-margin-left: 30px;
-font-size: 4.5rem;    
-}
-
-
-.titulo2 {
-
-width: auto;
-height: 50vh;
-text-align: center; 
-justify-items: center;
-}
-
-.titulo2 p {
-font-size: 3.8rem; 
-margin: 100px auto ;
-}
-
-
-.contenedor-portada a {
-font-size: 15px;
-
-} 
-
-.contenedor  {
-  padding: 30px;
-}
-.lines {
-   width: 100%;
-   height: 25px;
-   
-}
-
-
-.circle {
-height: 30px;
-width: 30px;
-margin: auto;
-
-
-}
-
-.img .capa {
-  width: 100%;
-  height: 100%;       
-}
- 
-    .img   .capa h3  {
-      font-size: 2em;
-         margin-top: -10px;
-             }
- 
-              .capa p  {
-                
-                 font-size: 1.4em;
-                 line-height: 1;
-                 width: 100%;
-                 max-width: 100px;
-                 transition:all 500ms ease-in-out;    
-                        }
- 
-
-.cuadro2 {
-width: 100%;
-height: 30%;
-align-items: center;
-text-align: center;
-}
-.cuadro2 p {
-  margin-top: -10px ;
-  font-size: 1.7rem;
-}         
-     
-
-.main5 {
-  height: auto;
-  width: 100%;
-  
-}
-
-.main5 .gallery5 {
-position: relative;
-height: auto;
-width:90% ;
-}
-
-.main5 .gallery5 .img {
-    
-    height: 100%;
-    width: 100%;
-   
-    }
-
-}
-
-
-
-
-
-    @media (max-width: 896px) {
-      
-        .hero {
-            height: 45vh;
-            width: 50%;
-            align-items: center;
-            justify-items: center;
-            background-size: 50% ;
-          } 
-        .hero2 {
-            height: 62vh;
-          }
-          .hero3 {
-            height: 63vh;
-          }
-
-      
-        .hero4 {
-height: 40vh;
-
-        }
-
-  .contenedor-portada h1 {
-  margin-left: 95% ;
-  font-size: 4rem;
- 
-  }
- 
-  
-        .nav-menu {
-          flex-direction: column;
-          align-items: center;
-          margin: 0;
-          background-color: #fff;
-          position: fixed;
-          top: 150px;
-          width: 100%;
-          padding: 20px 0;
-          height: calc(100% - 60px);
-          overflow-y: auto;
-      
-          left: 100%;
-          transition: left 0.3s;
-        }
-      
-        .nav-menu-item {
-          line-height: 80px;
-        }
-
-        .nav-menu-link {
-
-          color: black;  
-        }  
-      
-        .nav-menu-link:hover,
-        .nav-menu-link_active {
-          background: none;
-          color: rgb(212, 175, 55);
-        }
-      
-        .nav-toggle {
-          display: block;
-        }
-      
-        .nav-menu_visible {
-          left: 0;
-        }
-      
-        .nav-toggle:focus:not(:focus-visible) {
-          outline: none;
-        }
-.black-video {
-    height: 100%;
-    width: 100%;
-}
-
-
-
-.main3 {
-   height: fit-content;
-    width: 100%;    
-  }
-  
-  .main3 .gallery3 {
-   
-    width: 100%;
-
-  }
-  
-  .main3 .gallery3 .img {
-      height: 100%;
-      width: 100%; 
-      }
-
-.derecha {
-    height: 10px;
-    width: 60%;
-    align-items: center;
-    text-align: center;
-}
-
-
-.titulo3 p {
-    margin-top: 100px ;
-    margin-left: 30px;
-  font-size: 3.8rem;    
-}
-
-
-.titulo2 {
-  
-  width: auto;
-  height: 50vh;
-  text-align: center; 
-justify-items: center;
-  }
-
-.titulo2 p {
-font-size: 3.8rem; 
-margin: 100px auto ;
-}
-
-
-.contenedor-portada a {
-    font-size: 15px;
-   
-    } 
-
-    .contenedor  {
-        padding: 30px;
-     }
-     .lines {
-         width: 100%;
-         height: 25px;
-         
-     }
-     
-     
-     .circle {
-     height: 30px;
-     width: 30px;
-     margin: auto;
-    
-     
-     }
- 
-     .img .capa {
-        width: 100%;
-        height: 100%;       
-    }
-       
-          .img   .capa h3  {
-            font-size: 2em;
-               margin-top: -10px;
-                   }
-       
-                    .capa p  {
-                      
-                       font-size: 1.4em;
-                       line-height: 1;
-                       width: 100%;
-                       max-width: 100px;
-                       transition:all 500ms ease-in-out;    
-                              }
-      
-.cuadro2 {
-    width: 100%;
-    height: 30%;
-    align-items: center;
-    text-align: center;
-    }
-    .cuadro2 p {
-        margin-top: -10px ;
-        font-size: 1.7rem;
-    }         
-           
-    .main5 {
-        height: auto;
-        width: 100%;
-        
-      }
-      
-      .main5 .gallery5 {
-      position: relative;
-      height: auto;
-      width:90% ;
-      }
-      
-      .main5 .gallery5 .img {
-          
-          height: 100%;
-          width: 100%;
-         
-          }
-
-      }
-
-
-
-
-      @media (max-width: 896px) {
-      
-        .hero {
-            height: 45vh;
-            width: 50%;
-            align-items: center;
-            justify-items: center;
-            background-size: 50% ;
-          } 
-        .hero2 {
-            height: 62vh;
-          }
-          .hero3 {
-            height: 63vh;
-          }
-      
-      
-        .hero4 {
-      height: 40vh;
-      
-        }
-      
-      .contenedor-portada h1 {
-      margin-left: 95% ;
-      font-size: 4rem;
-      
-      }
-      
-      
-        .nav-menu {
-          flex-direction: column;
-          align-items: center;
-          margin: 0;
-          background-color: #fff;
-          position: fixed;
-          top: 150px;
-          width: 100%;
-          padding: 20px 0;
-          height: calc(100% - 60px);
-          overflow-y: auto;
-      
-          left: 100%;
-          transition: left 0.3s;
-        }
-      
-        .nav-menu-item {
-          line-height: 80px;
-        }
-      
-        .nav-menu-link {
-      
-          color: black;  
-        }  
-      
-        .nav-menu-link:hover,
-        .nav-menu-link_active {
-          background: none;
-          color: rgb(212, 175, 55);
-        }
-      
-        .nav-toggle {
-          display: block;
-        }
-      
-        .nav-menu_visible {
-          left: 0;
-        }
-      
-        .nav-toggle:focus:not(:focus-visible) {
-          outline: none;
-        }
-      .black-video {
-      height: 100%;
-      width: 100%;
-      }
-      
-      
-      
-      .main3 {
-      height: fit-content;
-      width: 100%;    
-      }
-      
-      .main3 .gallery3 {
-      
-      width: 100%;
-      
-      }
-      
-      .main3 .gallery3 .img {
-      height: 100%;
-      width: 100%; 
-      }
-      
-      .derecha {
-      height: 10px;
-      width: 60%;
-      align-items: center;
-      text-align: center;
-      }
-      
-      
-      .titulo3 p {
-      margin-top: 100px ;
-      margin-left: 30px;
-      font-size: 3.8rem;    
-      }
-      
-      
-      .titulo2 {
-      
-      width: auto;
-      height: 50vh;
-      text-align: center; 
-      justify-items: center;
-      }
-      
-      .titulo2 p {
-      font-size: 3.8rem; 
-      margin: 100px auto ;
-      }
-      
-      
-      .contenedor-portada a {
-      font-size: 15px;
-      
-      } 
-      
-      .contenedor  {
-        padding: 30px;
-      }
-      .lines {
-         width: 100%;
-         height: 25px;
-         
-      }
-      
-      
-      .circle {
-      height: 30px;
-      width: 30px;
-      margin: auto;
-      
-      
-      }
-      
-      .img .capa {
-        width: 100%;
-        height: 100%;       
-      }
-       
-          .img   .capa h3  {
-            font-size: 2em;
-               margin-top: -10px;
-                   }
-       
-                    .capa p  {
-                      
-                       font-size: 1.4em;
-                       line-height: 1;
-                       width: 100%;
-                       max-width: 100px;
-                       transition:all 500ms ease-in-out;    
-                              }
-      
-      .cuadro2 {
-      width: 100%;
-      height: 30%;
-      align-items: center;
-      text-align: center;
-      }
-      .cuadro2 p {
-        margin-top: -10px ;
-        font-size: 1.7rem;
-      }         
-           
-      .main5 {
-        height: auto;
-        width: 100%;
-        
-      }
-      
-      .main5 .gallery5 {
-      position: relative;
-      height: auto;
-      width:90% ;
-      }
-      
-      .main5 .gallery5 .img {
-          
-          height: 100%;
-          width: 100%;
-         
-          }
-      
-      }
-
 
       @media (max-width: 568px) {
       
@@ -2816,35 +2159,34 @@ margin: 100px auto ;
   height: 50vh;
   width: 100%;
   background-position:50% 95% ;
-  
+  background-size: 45%;
   }
           .hero2 {
               height: 23vh;
             }
-    
-    
+  
             .hero3 {
               height: 23vh;
             }
   
-          
-        
+            .contenedor-portada {
+              margin-top: 3%;
+              }
             .contenedor-portada h1 {
               right: 45%;
-              font-size: 3rem;
+              font-size: 2.5rem;
               }
     
+
               .titulo2 {      
-width: auto;
-height: 30vh;
-text-align: center; 
-justify-items: center;
+height: 18vh;
 
 }
 
 .titulo2 p {
+  
   margin: 0 50px 0 50px ;
-font-size: 3rem; 
+font-size: 2.5em; 
 }
 .titulo-silla  {
   width:auto ;
@@ -2873,8 +2215,6 @@ font-size: 3rem;
 .titulo3 {
   display: none;
 }
-
-
         
           .hero4 {
   height: 20vh;
@@ -2886,9 +2226,6 @@ font-size: 3rem;
             margin-left: 150%;     
           }
 
-
-        
-  
           .nav-menu {
             flex-direction: column;
             align-items: center;
@@ -2900,7 +2237,6 @@ font-size: 3rem;
             padding: 20px 0;
             height: calc(30% - 10px);
             overflow-y: auto;
-        
             left: 100%;
             transition: left 0.3s;
           }
@@ -2941,6 +2277,7 @@ font-size: 3rem;
     .main {
    width: 100%;
    padding: 0; 
+   
 } 
 
   
@@ -2979,8 +2316,7 @@ font-size: 3rem;
        }
        .lines {
            width: 100%;
-           height: 25px;
-           
+           height: 25px;  
        }
        
        
@@ -2988,14 +2324,12 @@ font-size: 3rem;
        height: 30px;
        width: 30px;
        margin: auto;
-      
        
        }
    
        .img .capa {
           width: 100%;
-          height: 14vh;
-               
+          height: 14vh;       
       }
          
             .img   .capa h3  {
@@ -3053,25 +2387,26 @@ font-size: 3rem;
       
     
   .hero {
-    height: 45vh;
+    height: 28vh;
     width: 100%;
     background-position:50% 95% ;
-    
+   
     }
             .hero2 {
                 height: 23vh;
               }
-      
-      
+          
               .hero3 {
                 height: 23vh;
               }
-  
-          
+      
+              .contenedor-portada{
+            
+              }
               .contenedor-portada h1 {
-                top: -70px;
-                right: 45%;
-                font-size: 2.5rem;
+               
+                left: 50%;
+                font-size: 2rem;
                 }
       
                 .titulo2 {      
@@ -3081,11 +2416,16 @@ font-size: 3rem;
   justify-items: center;
   
   }
-  
+  .titulo2 {
+   height: 23vh;
+   width: 100%;
+  }
+
   .titulo2 p {
     margin: 0 50px 0 50px ;
-  font-size: 2.3rem; 
-  }
+  font-size: 2em; 
+
+}
   .titulo-silla  {
     width:auto ;
     height: 7vh;
@@ -3114,21 +2454,15 @@ font-size: 3rem;
     display: none;
   }
   
-  
-          
             .hero4 {
     height: 20vh;
-    
-            }
-    
+            }    
             .logo img  {
        height: 10vh;
               margin-left: 150%;     
+              background: red;
             }
-  
-  
-          
-    
+
             .nav-menu {
               flex-direction: column;
               align-items: center;
@@ -3140,7 +2474,6 @@ font-size: 3rem;
               padding: 20px 0;
               height: calc(30% - 10px);
               overflow-y: auto;
-          
               left: 100%;
               transition: left 0.3s;
             }
@@ -3179,7 +2512,8 @@ font-size: 3rem;
     
     
       .main {
-     width: 100%;
+      right: 12%;  
+     width: 130%;
      padding: 0; 
   } 
   
@@ -3228,22 +2562,17 @@ font-size: 3rem;
          height: 30px;
          width: 30px;
          margin: auto;
-        
-         
          }
      
          .img .capa {
             width: 100%;
-            height: 14vh;
-                 
+            height: 14vh;        
         }
-           
               .img   .capa h3  {
                   margin-top: 10px;
-                font-size: 1em;
-                   
+                font-size: 1em;             
                        }
-           
+      
                       .img  .capa p  {
                           
                            font-size: 10px;
@@ -3254,7 +2583,6 @@ font-size: 3rem;
                            transition:all 500ms ease-in-out;    
                                   } 
            
-         
     .cuadro2 {
         width: 100%;
         height: 30%;
@@ -3265,8 +2593,7 @@ font-size: 3rem;
             margin-top: -10px ;
             font-size: 1.7rem;
         }         
-               
-    
+        
         .main5 {
             height: auto;
             width: 100%;
