@@ -2383,14 +2383,15 @@ font-size: 2.5em;
 }
 
 
-@media (max-width: 412px) {
+@media (max-width: 415px) {
       
     
   .hero {
-    height: 28vh;
+    
+    height: 38vh;
     width: 100%;
     background-position:50% 95% ;
-   
+   background-size: 250px;
     }
             .hero2 {
                 height: 23vh;
@@ -2400,13 +2401,11 @@ font-size: 2.5em;
                 height: 23vh;
               }
       
-              .contenedor-portada{
-            
-              }
+             
               .contenedor-portada h1 {
                
                 left: 50%;
-                font-size: 2rem;
+                font-size: 2.3rem;
                 }
       
                 .titulo2 {      
