@@ -9,6 +9,8 @@
 
 }
 body {
+  padding: 0;
+  margin: 0;
  background: #000;
 }
 
@@ -52,6 +54,41 @@ width: 100%;
 background-position:50% 95% ;
 
 }
+/*Redes barra menu*/
+
+.social-icons-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+    
+  }
+ 
+ .social-icon2 {
+ height: 50px;
+ width: 50px;
+ border-radius: 50px;
+ border: 1 solid #000;
+ margin: 1rem;
+ color: #f0F1F8;
+ transition: all 500ms ease;
+ 
+ } 
+ 
+ .social-icon2 i {
+    font-size: 30px;  
+    margin: 8px 8px;
+    transition: all 500ms ease;
+     } 
+ 
+ .social-icon2:hover {
+     background-color: #000;
+     filter: invert(1);
+     } 
+
+
+
 
 
 .titulo-galeria {
@@ -67,14 +104,12 @@ background-position:50% 95% ;
   width: 100%;
   top:0;
   left: 0;
-
-
   }
   
   .nav {
       display: flex;
       justify-content: space-between;
-      max-width: 890px;
+      max-width: 1400px;
       margin:0 auto ;
   }
   
@@ -98,9 +133,15 @@ bottom: -10px;
   .nav-link:hover {
     color: rgb(219, 185, 20);
     text-decoration: none;
-   
     }
     
+.logo {
+  position: relative;
+  width: 100%;
+  margin-right: 230px ;
+  
+}
+
    .logo img { 
   height: 100%;
   width: auto;
@@ -113,8 +154,8 @@ bottom: -10px;
      margin-right: 40px;
      list-style: none; 
      align-items: center;
-  }
   
+    }
   
   .nav-menu-item {
   font-size: 25px;
@@ -123,7 +164,6 @@ bottom: -10px;
   text-transform: uppercase;
   width: max-content;
   transition: all 0.5s ease;
-  
   }
   
   .nav-menu-link{
